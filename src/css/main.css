@@ -1,0 +1,9 @@
+/** Imports from src directory */
+@import "base/reset.css";
+@import "base/variables.css";
+@import "base/typography.css";
+@import "base/containers.css";
+@import "base/global.css";
+
+/** Imports from module folders (Paths are expanded within Gulp task) */
+@import "<Modules>";

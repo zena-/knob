@@ -1,0 +1,35 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+
+  @media (--sm) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  & .container {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.9rem;
+
+    @media (--sm) {
+      width: 100%;
+      padding: 0 1.35rem;
+    }
+
+    @media (--md) {
+      padding: 0 2.25rem;
+    }
+  }
+
+  &__title {
+    width: 100%;
+    text-align: center;
+    margin: 1.8rem auto;
+
+    @media (--sm) {
+      margin: 3.6rem auto;
+    }
+  }
+}
