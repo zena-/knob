@@ -52,7 +52,7 @@
     "stylelint-config-standard": "^18.2.0",
     "tweezer.js": "^1.4.0",
     "url-loader": "^1.1.2",
-    "webpack": "^4.29.6"
+    "webpack": "^5.94.0"
   },
   "dependencies": {
     "scrollreveal": "^4.0.5"
